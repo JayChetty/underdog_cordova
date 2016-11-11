@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/UnderdogNative.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.palaapps.underdog</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: jaypaulchetty@gmail.com (U6H26M3UHD)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2016-11-11T10:29:33Z</date>
+	<key>Name</key>
+	<string>UnderdogNative</string>
+	<key>SchemeName</key>
+	<string>UnderdogNative</string>
+</dict>
+</plist>
