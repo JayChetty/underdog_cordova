@@ -19,6 +19,7 @@
 		3E88FF96329945619C94F94A /* FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D62A515B1A4416886FFCE4 /* FCMPlugin.m */; };
 		45A5B77295B94B51BAE519BA /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA40C5D9A7041658D45422C /* GoogleSymbolUtilities.framework */; };
 		540CC241F37F4356B2F6016A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4764F8EE25A84EB2812A629A /* Security.framework */; };
+		5433C4C41DD5B80B001ADFA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5433C4C31DD5B80B001ADFA2 /* GoogleService-Info.plist */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		7D7E0CC03FF3498E9DA41E0D /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27C439A1F324F68892EDBD2 /* FirebaseAnalytics.framework */; };
 		9437BC2699A44433BAF7CAC0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC831395A7486AAC32016B /* AddressBook.framework */; };
@@ -71,6 +72,7 @@
 		338AFE9473DD4F92AF042C2A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "UnderdogNative/Plugins/cordova-plugin-fcm/GoogleUtilities.framework"; sourceTree = "<group>"; };
 		4764F8EE25A84EB2812A629A /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5433C4C21DD5B73B001ADFA2 /* UnderdogNative.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = UnderdogNative.entitlements; path = UnderdogNative/UnderdogNative.entitlements; sourceTree = "<group>"; };
+		5433C4C31DD5B80B001ADFA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = UnderdogNative/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* UnderdogNative-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "UnderdogNative-Info.plist"; path = "UnderdogNative/UnderdogNative-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		93D62A515B1A4416886FFCE4 /* FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FCMPlugin.m; path = "cordova-plugin-fcm/FCMPlugin.m"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5433C4C31DD5B80B001ADFA2 /* GoogleService-Info.plist */,
 				5433C4C21DD5B73B001ADFA2 /* UnderdogNative.entitlements */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				5433C4C41DD5B80B001ADFA2 /* GoogleService-Info.plist in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 			);
