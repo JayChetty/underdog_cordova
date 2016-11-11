@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.palaapps.underdog"
+        },
+        "cordova-plugin-fcm": {
+            "PACKAGE_NAME": "com.palaapps.underdog"
         }
     },
     "dependent_plugins": {}
