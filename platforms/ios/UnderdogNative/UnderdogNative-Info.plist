@@ -33,8 +33,6 @@
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
-    <key>NSMainNibFile</key>
-    <string/>
     <key>NSMainNibFile~ipad</key>
     <string/>
     <key>UIBackgroundModes</key>

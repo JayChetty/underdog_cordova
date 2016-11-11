@@ -268,6 +268,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 78KJXKK2DL;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -380,6 +381,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = UnderdogNative/UnderdogNative.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 78KJXKK2DL;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -399,8 +401,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "UnderdogNative/UnderdogNative-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = UnderdogNative;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,6 +418,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = UnderdogNative/UnderdogNative.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 78KJXKK2DL;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -431,8 +436,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "UnderdogNative/UnderdogNative-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = UnderdogNative;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

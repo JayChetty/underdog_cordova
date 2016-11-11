@@ -19,6 +19,7 @@
         <param name="ios-package" value="FCMPlugin" />
     </feature>
     <name>UnderdogNative</name>
+    <icon src="www/img/underdog-icon.png" />
     <description>
         Native wrapper for Underdog
     </description>
@@ -35,6 +36,7 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <icon height="180" src="www/img/icons/Icon-App-60x60@3x.png" width="180" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
